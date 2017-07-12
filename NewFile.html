@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="NewFile.css">
+<link rel="stylesheet" type="text/css" href="NewFile.css">
+<link rel="stylesheet" type="media_query" href="NewFile.css">
+<link rel="stylesheet" type="topnav/css" href="NewFile.css">
+<link rel="stylesheet" type="container" href="NewFile.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="button" href="NewFile.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="NewFile.js"></script>
+<script type="demo/javascript" src="NewFile.js"></script>
+<style>
+.modal-header, h4, .close {
+	background-color: #FBB917;
+	color: white !important;
+	text-align: center;
+	font-size: 30px;
+}
+
+.modal-footer {
+	background-color: #f9f9f9;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<!-- Trigger the modal with a button -->
+		<div align="right">
+			<button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header" style="padding: 35px 50px;">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4>
+							<span class="glyphicon glyphicon-lock"></span> Login
+						</h4>
+					</div>
+					<div class="modal-body" style="padding: 40px 50px;">
+						<form role="form">
+							<div class="form-group">
+								<label for="usrname"><span
+									class="glyphicon glyphicon-user"></span> Username</label> <input
+									type="text" class="form-control" id="usrname"
+									placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="psw"><span
+									class="glyphicon glyphicon-eye-open"></span> Password</label> <input
+									type="text" class="form-control" id="psw"
+									placeholder="Enter password">
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" value="" checked>Remember
+									me</label>
+							</div>
+							<div class="submit">
+								<button type="submit" class="btn btn-success btn-block">
+									<span class="glyphicon glyphicon-off"></span> Login
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-danger btn-default pull-left"
+							data-dismiss="modal">
+							<span class="glyphicon glyphicon-remove"></span> Cancel
+						</button>
+						<p>
+							Not a member? <a href="#">Sign Up</a>
+						</p>
+						<p>
+							Forgot <a href="#">Password?</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+	<h1
+		style="text-align: center; color: #800000; background-color: #FBB917">
+		Luxury Collection Hotel, New York City <i class="material-icons"
+			style="font-size: 48px; color: blue">room</i>
+	</h1>
+	<i class="material-icons" style="font-size: 48px; color: red">thumb_up</i>
+	<i class="material-icons" style="font-size: 48px; color: red">thumb_down</i>
+	<i class="material-icons" style="font-size: 48px; color: black">airport_shuttle</i>
+	<i class="material-icons" style="font-size: 48px; color: black">beach_access</i>
+	<i class="material-icons" style="font-size: 48px; color: black">casino</i>
+	<i class="material-icons" style="font-size: 48px; color: black">fitness_center</i>
+	<i class="material-icons" style="font-size: 48px; color: black">hot_tub</i>
+	<i class="material-icons" style="font-size: 48px; color: black">pool</i>
+	<i class="material-icons" style="font-size: 48px; color: black">room_service</i>
+	<i class="material-icons" style="font-size: 48px; color: black">smoke_free</i>
+	<i class="material-icons" style="font-size: 48px; color: black">spa</i>
+	<p id="demo"></p>
+	<script>
+  var myvar = SetInterval(myTimer, 1000);
+function myTimer() {
+	var d = new Date();
+	document.getElementById("demo").innerHTML = d.toLocalTimeString();
+}
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+	<div class="topnav" id="myTopnav">
+		<a href="NewFile.html"><font size="5">Home</font></a> <a
+			href="picture.html"><font size="5">Photos</font></a> <a
+			href="newfile_get.php"><font size="5">Rooms</font></a> <a
+			href="location.html"><font size="5">Locations</font></a> <a
+			href="services.html"><font size="5">Services</font></a>
+			 <a href="dining.html"><font size="5">Dining</font></a> <a href="meeting.html"><font size="5">Meeting/Events</font></a>
+		<a href="review.html"><font size="5">Reviews</font></a> <a
+			href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)"
+		style="background-color: #D94A38; width: 1050; height: 20px; padding: 40px; text-align: center; font-size: 250%">
+		<b>Visit Again!!! And Again!!!</b>
+	</div>
+
+	<script>
+function mOver(obj) {
+    obj.innerHTML = "Thank You For Your Visit"
+}
+
+function mOut(obj) {
+    obj.innerHTML = "Visit Again!!! And Again!!!"
+}
+</script>
+
+
+	<div id="container">
+		<img class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/newyork.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/lobby.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/bedroom.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/spa.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/rooms.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/pool.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/gym.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/resort.jpg" /> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/aa.jpg"> <img
+			class="slides" src="file:///C:/Users/HP/Downloads/javascript-latest-released/shivani/image/Deluxe.jpg">
+		<button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
+		<button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+		<script>
+ var index = 1;
+function plusIndex(n) {
+	index = index + 1;
+	showImage(index);
+}
+showImage(1);
+
+function showImage(n){
+	var i;
+	var x = document.getElementsByClassName("slides");
+	if(n > x.length){ index = 1};
+	if(n < 1){ index = x.length};
+	for(i=0;i<x.length;i++)
+		{
+		x[i].style.display = "none";
+		}
+	x[index-1].style.display = "block";
+		}
+
+autoSlide();
+function autoSlide(){
+	 var i;
+	 var x = document.getElementsByClassName("slides");
+	 for (i=0;i<x.length;i++){
+	 x[i].style.display = "none";}
+	 if(index > x.length){ index = 1};
+ x[index-1].style.display = "block";
+ index++;
+setTimeout(autoSlide,2000);
+}
+ </script>
+	</div>
+	<div class="w3-content" style="max-width: 1532px;">
+
+		<div class="w3-container w3-margin-top" id="rooms">
+			<h3>Rooms</h3>
+			<p>Make yourself at home is our slogan. We offer the best beds in
+				the industry. Sleep well and rest well.</p>
+		</div>
+
+		<form method="post" action="newfile_get.php">
+			<div class="w3-row-padding">
+				<div class="w3-col m3">
+					<label><i class="fa fa-calendar-o"></i> Check In</label> <input
+						class="w3-input w3-border" type="text" placeholder="DD MM YYYY"
+						name="checkin" required>
+				</div>
+				<div class="w3-col m3">
+					<label><i class="fa fa-calendar-o"></i> Check Out</label> <input
+						class="w3-input w3-border" type="text" placeholder="DD MM YYYY"
+						name="checkout" required>
+				</div>
+				<div class="w3-col m2">
+					<label><i class="fa fa-male"></i> Adults</label> <input
+						class="w3-input w3-border" type="number" placeholder="1"
+						name="adult">
+				</div>
+				<div class="w3-col m2">
+					<label><i class="fa fa-child"></i> Kids</label> <input
+						class="w3-input w3-border" type="number" placeholder="0"
+						name="kids">
+				</div>
+				<div class="w3-col m2">
+					<label><i class="fa fa-search"></i> Search</label>
+					<button class="w3-button w3-block w3-black" type="submit">Find
+						Rooms</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<br>
+	<div class="col-sm-4">
+		<h2>
+			<i class="fa fa-bed"> ROOMS</i>
+		</h2>
+		<ol>
+			<li>76 Rooms(26 suites)</li>
+			<li>smoke free</li>
+			<li>wireless Internet access</li>
+			<li>pets allowed</li>
+		</ol>
+	</div>
+	<div class="col-sm-4">
+		<h2>
+			<i class="fa fa-car"> TRANSPORTATION</i>
+		</h2>
+		6 Miles/ 9.66 km From LGA, Valte parking 65-75 USD per day
+	</div>
+	<div class="col-sm-4">
+		<h2>
+			<i class="fa fa-building"> At This Hotel</i>
+		</h2>
+		<ul>
+			<li>Pool</li>
+			<li>Spa</li>
+			<li>Fitness Center</li>
+			<li>WheelChair Accessible</li>
+		</ul>
+	</div>
+</body>
+<script src="NewFile.js"></script>
+</html>
