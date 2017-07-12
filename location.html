@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>things to do in new york</title>
+<link rel="stylesheet" href="NewFile.css">
+<link rel="stylesheet" type="text/css" href="NewFile.css">
+<link rel="stylesheet" type="media_query" href="NewFile.css">
+<link rel="stylesheet" type="topnav/css" href="NewFile.css">
+<link rel="stylesheet" type="map/css" href="NewFile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+<h1 style="text-align: center; color: #800000; background-color: #FBB917">Luxury Collection Hotel, New York City <i class="material-icons"style="font-size: 48px; color: blue">room</i>
+	</h1>
+	<div class="topnav" id="myTopnav">
+		<a href="NewFile.html"><font size="5">Home</font></a> <a
+			href="picture.html"><font size="5">Photos</font></a> <a
+			href="newfile_get.php"><font size="5">Rooms</font></a> <a
+			href="location.html"><font size="5">Locations</font></a> <a
+			href="services.html"><font size="5">Services</font></a>
+			 <a href="dining.html"><font size="5">Dining</font></a> 
+			<a href="meeting.html"><font size="5">Meeting/Events</font></a>
+		<a href="review.html"><font size="5">Reviews</font></a> <a
+			href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<h1 style="text-align: left; font-family: Berlin Sans serif">Local
+		Attraction</h1>
+	<br>
+	<hr>
+	<p style="font-family: unicorn">
+		<i> With one of the world's most unique and celebrated addresses,
+			our spectatular setting lends itself to rich and memorable travel
+			experiences.</i>
+	</p>
+	<div id="map"></div>
+	<script>
+  function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      } 
+</script>
+	<script type="text/javascript" src="location.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMzbOfofg-liCcKrmaUp3yb23RdSxeG9M&callback=initMap">
+    </script>
+<img align="left" src= "C:\Users\HP\Pictures\new.png.jpg" style= "float: left; margin-right: 10px;  margin-bottom: 5px; border: solid black 1px; padding: 2px;" />
+</body>
+</html>
