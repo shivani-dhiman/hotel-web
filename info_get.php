@@ -20,15 +20,15 @@
 		<a href="review.html"><font size="5">Reviews</font></a> <a
 			href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</div>
-From: 12/07/2017 <?php echo $_GET["date-from"]; ?> <br><br>
-To: 15/07/2017  <?php echo $_GET["date-to"]; ?> <br><br>
-Room-Type: Double room <?php echo $_GET["room-type"]; ?> <br><br>
-Room-Requirement: Non Smoking <?php echo $_GET["room-requirements"]; ?> <br><br>
-Adults: 2 <?php echo $_GET["adults"]; ?> <br><br> 
-Children: 3 <?php echo $_GET["children"]; ?> <br><br>
-Name: Shivani dhiman <?php echo $_GET["name"]; ?> <br><br>
-Email: shivani25640@gmail.com <?php echo $_GET["email"]; ?> <br><br>
-Phone: 9871157988 <?php echo $_GET["phone"]; ?> <br><br>
-Special-Requirement: There is flowers also available <?php echo $_GET["special-requirements"]; ?> <br><br>
+From:  <?php echo $_GET["date-from"]; ?> <br><br>
+To:   <?php echo $_GET["date-to"]; ?> <br><br>
+Room-Type:  <?php echo $_GET["room-type"]; ?> <br><br>
+Room-Requirement:  <?php echo $_GET["room-requirements"]; ?> <br><br>
+Adults:  <?php echo $_GET["adults"]; ?> <br><br> 
+Children:  <?php echo $_GET["children"]; ?> <br><br>
+Name: <?php echo $_GET["name"]; ?> <br><br>
+Email:  <?php echo $_GET["email"]; ?> <br><br>
+Phone:  <?php echo $_GET["phone"]; ?> <br><br>
+Special-Requirement: <?php echo $_GET["special-requirements"]; ?> <br><br>
 </body>
 </html>
